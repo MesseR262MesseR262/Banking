@@ -1,0 +1,47 @@
+@media screen and (max-width: 951px) {
+	.container {
+		width: 100%;
+	}
+	.methods .container .systems {
+		justify-content: space-around;
+	}
+}
+@media screen and (max-width: 951px) {
+	.container {
+		justify-content: space-around;
+	}
+	header .logo {
+		height: 60px;
+	}
+	header .header-right .language {
+		display: none;
+	}
+	.methods .container h2 {
+		text-align: center;
+	}
+	footer .container .pay-systems {
+		display: none;
+	}
+}
+@media screen and (max-width: 500px) {
+	.invoice .container {
+		padding: 10px;
+	}
+	.invoice .container h2 {
+		margin: 0 auto;
+	}
+}
+@media screen and (max-width: 350px) {
+	.container {
+		flex-direction: column;
+	}
+	h2 {
+		font-size: 25px;
+	}
+	header .logo {
+		height: 50px;
+	}
+	footer {
+		align-items: stretch;
+	}
+}
